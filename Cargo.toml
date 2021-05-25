@@ -1,0 +1,22 @@
+[package]
+name = "rustpeg"
+version = "0.1.0"
+authors = ["lamhai1401 <lamthanhhai141@gmail.com>"]
+default-run = "rustpeg"
+edition = "2018"
+readme = "README.md"
+homepage = "github.com/lamhai1401/rustpeg"
+repository = "github.com/lamhai1401/rustpeg"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# [dependencies]
+# rsmpeg = "0.3.0"
+
+[lib]
+name = "rustpeg"
+# path = "src/"
+
+[[bin]]
+name = "rustpeg"
+path = "src/bin/main.rs"
